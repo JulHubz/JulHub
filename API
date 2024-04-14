@@ -3,7 +3,7 @@ return {
 	_event_connection = {
 
 		_HALLOWEEN_CONNECTION = {
-			_halloween = true
+			_halloween = false
 		},
 
 		_CHRISTMAS_CONNECTION = {
