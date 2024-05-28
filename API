@@ -37,14 +37,3 @@ return {
 		}
 	},
 }
-
-
-
-local JulHubFile = "JulHub/JulHubData/AdoptMe/Config.json"
-
-function saveSetting()
-	if (writefile) then
-		json = HttpService:JSONEncode(Setting)
-		writefile(JulHubFile, json)
-	end
-end
