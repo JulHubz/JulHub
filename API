@@ -1,4 +1,7 @@
+
 return {
+
+	_adoptme_version = "4.5.5"
 
 	_event_connection = {
 
@@ -34,3 +37,14 @@ return {
 		}
 	},
 }
+
+
+
+local JulHubFile = "JulHub/JulHubData/AdoptMe/Config.json"
+
+function saveSetting()
+	if (writefile) then
+		json = HttpService:JSONEncode(Setting)
+		writefile(JulHubFile, json)
+	end
+end
