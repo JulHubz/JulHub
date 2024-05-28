@@ -1,5 +1,5 @@
 return {
-	adoptme_version = "4.5.7",
+	adoptme_version = "4.5.8",
 
 	_event_connection = {
 
