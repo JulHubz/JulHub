@@ -1,7 +1,4 @@
-
 return {
-
-	_adoptme_version = "4.5.5"
 
 	_event_connection = {
 
